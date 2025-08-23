@@ -6,7 +6,7 @@
 > 🧠 The brand logo used in this project is **self-designed using Canva**, showcasing creativity and a personal touch in the overall branding.
 ## 🔗 Live Preview
 
-👉 [Visit the Live Site](https://minalduggal.github.io/Pink-Muse/) 
+👉 [Visit the Live Site](https://minalduggal.github.io/PINK_MUSE/) 
 
 ## 📁 Project Structure
 
