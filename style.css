@@ -522,3 +522,304 @@
     margin: 0;
 
 }
+
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   (No existing styles were changed above)
+   ============================================ */
+
+/* --- Tablet: 768px – 1024px --- */
+@media (max-width: 1024px) {
+
+    /* Navbar */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 16px;
+        gap: 6px;
+        justify-content: center;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .shop-page .navbar a {
+        margin: 0 2px;
+    }
+
+    /* Index hero */
+    .herosection {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 40px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slogan {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: large;
+    }
+
+    .box-logo {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* About image */
+    .about-image img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* Our story */
+    .our-story p {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 40px;
+        height: auto;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Contact page */
+    .contact-page .herosection {
+        height: auto;
+        padding: 30px 20px 40px;
+        align-items: flex-start;
+    }
+
+    .contact-section {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Shop boxes */
+    .box {
+        width: 45%;
+        min-width: 260px;
+    }
+}
+
+/* --- Mobile: up to 767px --- */
+@media (max-width: 767px) {
+
+    /* Navbar: hamburger-free compact wrap */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 10px;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .navbar a {
+        padding: 6px 8px;
+        font-size: 0.78rem;
+    }
+
+    .nav-search {
+        width: 100%;
+        justify-content: center;
+        padding: 4px 0 2px;
+    }
+
+    .nav-search input {
+        width: 60%;
+    }
+
+    /* Index hero */
+    .herosection {
+        margin-top: 100px;
+        flex-direction: column;
+        height: auto;
+        padding: 24px 16px 36px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slogan {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: medium;
+    }
+
+    .slogan h1 {
+        font-size: 2rem;
+    }
+
+    .explore-button {
+        margin: 24px auto 0;
+        display: block;
+    }
+
+    .box-logo {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .logo {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* About page */
+    .aboutus {
+        font-size: 2rem;
+        padding: 50px 0 20px 0;
+        margin: 20px 0 10px;
+    }
+
+    .about-image {
+        margin-bottom: 40px;
+        padding: 0 16px;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .our-story {
+        padding: 24px 12px;
+        font-size: 1.5rem;
+    }
+
+    .our-story h2 {
+        font-size: 1.8rem;
+    }
+
+    .our-story p {
+        font-size: 1rem;
+        padding: 0 12px;
+        margin-bottom: 30px;
+    }
+
+    .our-story .container {
+        border-radius: 12px;
+    }
+
+    /* Shop page */
+    .shop-page .herosection {
+        padding: 40px 16px 60px;
+        margin-top: 110px;
+        gap: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .box-wrapper {
+        gap: 20px;
+    }
+
+    .box {
+        width: 100%;
+        min-width: unset;
+        max-width: 380px;
+        height: 380px;
+    }
+
+    .box-pic {
+        height: 330px;
+    }
+
+    /* Contact page */
+    .contact-page .herosection {
+        height: auto;
+        padding: 24px 12px 40px;
+        margin-top: 110px;
+    }
+
+    .contact-section {
+        width: 100%;
+        height: auto;
+        padding: 20px 16px;
+    }
+
+    .contact-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-section p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        height: auto;
+        padding: 20px 16px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .social_links {
+        gap: 14px;
+    }
+
+    .social_link {
+        width: 46px;
+        height: 46px;
+        font-size: 1.1rem;
+    }
+}
+
+/* --- Small mobile: up to 400px --- */
+@media (max-width: 400px) {
+
+    .navbar a {
+        font-size: 0.7rem;
+        padding: 5px 5px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.3rem;
+    }
+
+    .slogan h1 {
+        font-size: 1.6rem;
+    }
+
+    .box {
+        max-width: 100%;
+        height: 340px;
+    }
+
+    .box-pic {
+        height: 290px;
+    }
+
+    .contact-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        width: 180px;
+        height: 180px;
+    }
+}
