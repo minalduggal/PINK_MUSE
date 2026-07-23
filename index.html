@@ -1,63 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Muse | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>HOME</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-
-<body>
-    <nav>
+  <body>
+    <header>
+      <nav id="navbar">
         <div class="navbar-section">
-            <div class="navbar">
-                <a href="index.html">HOME</a>
-                <a href="shop.html">SHOP</a>
-                <a href="about.html">ABOUT US</a>
-                <a href="contactUs.html">CONTACT US</a>
-            </div>
+          <div class="navbar">
+            <a href="index.html" id="home-link">HOME</a>
+            <a href="shop.html" id="shop-link">SHOP</a>
+            <a href="about.html" id="about-link">ABOUT US</a>
+            <a href="contactUs.html" id="contact-link">CONTACT US</a>
+          </div>
         </div>
-    </nav>
+      </nav>
+    </header>
 
-    <div class="herosection">
+    <main>
+      <section id="hero" class="herosection">
         <div class="slogan">
-            <h1>Pink Muse</h1>
-            <p> Where Fragrance Meets Femininity</p>
-            <p>
-                <i style="color:#ffe4ec;">Dive into dreamy mists, floral notes,<br>
-                    and a world of scent made just for her.</i><br>
-                <strong style="color:#ffcad4;">Breathe beauty. Wear confidence.</strong>
-            </p>
-            <a href="shop.html" style="text-decoration: none;">
-                <button class="explore-button">Explore Products</button>
-            </a>
-
+          <h1>Pink Muse</h1>
+          <p>Where Fragrance Meets Femininity</p>
+          <p>
+            <i class="hero-description">
+              Dive into dreamy mists, floral notes,<br />
+              and a world of scent made just for her.
+            </i>
+            <br />
+            <br />
+            <strong class="hero-highlight">
+              Breathe beauty. Wear confidence.
+            </strong>
+          </p>
+          <a href="shop.html" class="explore-link">
+            <button class="explore-button">Explore Products</button>
+          </a>
         </div>
         <div class="box-logo">
-            <a href="images/logo1.png">
-                <div class="logo"></div>
-            </a>
+          <a href="images/logo.png" aria-label="Pink Muse Logo">
+            <div class="logo" role="img" aria-label="Pink Muse Logo"></div>
+          </a>
         </div>
-    </div>
+      </section>
+    </main>
 
-    <footer class="footer">
-        <div class="copyright">
-            <p style="font-size: larger;">MADE BY MINAL © 2025 | All Rights Reserved</p>
-        </div>
-        <div class="social_links">
-            <a href="https://github.com/minalduggal" class="social_link"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/minal-duggal-2809131b3" class="social_link"><i
-                    class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/minalduggal/profilecard/?igsh=eWtpZHZ3eDlpb29n" class="social_link"><i
-                    class="fab fa-instagram"></i></a>
-        </div>
+    <footer id="footer" class="footer">
+      <div class="copyright">
+        <p class="copyright-text">MADE BY MINAL | All Rights Reserved</p>
+      </div>
+
+      <div class="social_links">
+        <a
+          href="https://github.com/minalduggal"
+          class="social_link"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/minal-duggal-2809131b3"
+          class="social_link"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/minalduggal/profilecard/?igsh=eWtpZHZ3eDlpb29n"
+          class="social_link"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </footer>
-</body>
-
-
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/whishlist.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
