@@ -1,72 +1,136 @@
-## 🌸 About the Project – Pink Muse
+# 🌸 Pink Muse – Perfume E-commerce Website
 
-**Pink Muse** is a fully designed multipage website for a fictional fashion and beauty brand. The website is built using **HTML and CSS only**, and it focuses on elegant visuals, modern design, and clean structure. It simulates a real-world brand presence by providing essential pages and user interface components typically found on e-commerce or brand showcase websites.
+## 🌸 About the Project
 
-> ✨ This website demonstrates front-end development skills, clean design and attention to user experience.
-> 🧠 The brand logo used in this project is **self-designed using Canva**, showcasing creativity and a personal touch in the overall branding.
-## 🔗 Live Preview
+**Pink Muse** is a responsive perfume e-commerce website built using **HTML5, CSS3, and JavaScript**. The project showcases a modern shopping experience with dynamic product rendering, live product search, and an interactive shopping cart powered by the **Local Storage API**.
 
-👉 [Visit the Live Site](https://minalduggal.github.io/PINK_MUSE/) 
+Designed with a feminine and elegant aesthetic, Pink Muse combines clean UI, responsive layouts, and interactive features to simulate a real-world online perfume store.
 
-## 📁 Project Structure
+> ✨ This project demonstrates front-end development skills, responsive web design, DOM manipulation, and JavaScript-based interactivity.
+>
+> 🧠 The **Pink Muse** logo was self-designed using **Canva**, adding a unique identity to the project.
 
-```PINK_MUSE/
-├── index.html          # Homepage
-├── About.html          # About the brand
-├── shop.html           # Shop/products section
-├── ContactUs.html      # Contact form
-├── style.css           # Centralized styling
-└── images/             # All visual assets
+---
+
+# 🔗 Live Preview
+
+👉 **Visit the Live Site:**
+[https://minalduggal.github.io/PINK_MUSE/](https://minalduggal.github.io/PINK_MUSE/)
+
+---
+
+# 📁 Project Structure
+
+```text
+PINK_MUSE/
+├── index.html
+├── shop.html
+├── about.html
+├── contactUs.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   ├── products.js
+│   ├── cart.js
+│   └── wishlist.js
+└── images/
 ```
-## 🔍 What It Includes
 
-- **Homepage (index.html)**  
-  The homepage features a hero banner with brand visuals, an eye-catching layout, and introductory content that invites users to explore the site. It serves as the landing page and includes internal navigation links to other sections of the website.
+---
 
-- **About Us Page (About.html)**  
-  This page gives a detailed overview of the brand — including its story, mission, values, and vision. It uses structured content and attractive design to connect emotionally with visitors.
+# ✨ Features
 
-- **Shop Page (shop.html)**  
-  A visual gallery-style page where products (or sample items) are displayed using styled cards and images. Although not dynamic, it simulates a product listing layout and is fully responsive.
+* 🛍️ Responsive multi-page perfume e-commerce website
+* 🔍 Live product search
+* 📦 Dynamic product rendering using JavaScript
+* 🛒 Interactive shopping cart
+* ➕ Increase/Decrease product quantity
+* 💰 Automatic subtotal calculation
+* 💾 Persistent cart data using Local Storage API
+* ⭐ Product ratings and detailed product cards
+* 📱 Fully responsive design for desktop, tablet, and mobile
+* 🎨 Elegant UI with smooth hover effects and transitions
+* 🌸 Custom Pink Muse logo designed using Canva
 
-- **Contact Us Page (ContactUs.html)**  
-  A user-friendly contact form is provided on this page, including fields like name, email, and message — allowing users to get in touch with the brand (form not functional, as it's a frontend-only project).
+---
 
-- **Images Folder**  
-  A dedicated `/images` directory is used to store all static image assets like banners, product pictures, and logos — maintaining proper organization and reusability.
+# 📄 Website Pages
 
-- **CSS Styling (style.css)**  
-  A single, centralized stylesheet is used to maintain consistent design across all pages. It handles:
-  - Typography
-  - Grid and flex layouts
-  - Color schemes
-  - Hover effects and transitions
+### 🏠 Home
 
-## ✨ Features and Functional Highlights
-- ✅ Multipage layout with clean navigation
-- ✅ Stylish pink-themed UI matching the brand identity
-- ✅ Hover effects on buttons and links
-- ✅ Structured semantic HTML for accessibility
-- ✅ Organized folder structure for easy maintenance
-- ✅ GitHub Pages support for live deployment
-- ✅ Custom-made logo (designed in Canva)
+* Elegant hero section
+* Brand introduction
+* Call-to-action button
+* Responsive landing page
 
-## 🔧🧠 Tools & Technologies
-- HTML5  
-- CSS3
-- Canva (for logo design) 
-- Visual Studio Code (for development)  
-- Git & GitHub (for version control and hosting)  
-- GitHub Pages (for live website hosting)
+### 🛍️ Shop
 
-## 💡 Use Case
-This project is ideal for:
-- Showcasing front-end development skills
-- Demonstrating UI/UX design sense
-- Practice in website structuring and hosting
+* Dynamic product listing
+* Live search functionality
+* Product categories
+* Ratings and pricing
+* Add to Cart functionality
 
-## 🔮 Future Enhancements
-- Add product filtering and sorting
-- Make the contact form functional with JS or backend
-- Add a blog/news section
-- Improve mobile responsiveness further
+### 💖 About Us
+
+* Brand overview
+* Elegant design
+* Responsive layout
+
+### 📩 Contact Us
+
+* Responsive contact form
+* User-friendly interface
+* Browser autocomplete support
+
+---
+
+# 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Local Storage API
+* Font Awesome
+* Google Fonts
+* Canva (Logo Design)
+* Visual Studio Code
+* Git & GitHub
+* GitHub Pages
+
+---
+
+# 💡 Key JavaScript Functionalities
+
+* Dynamic product rendering
+* Live search filtering
+* Shopping cart management
+* Quantity increase/decrease
+* Automatic order summary calculation
+* Local Storage integration
+* DOM manipulation
+* Event handling
+
+---
+
+# 🚀 Future Enhancements
+
+* Wishlist functionality
+* Product filtering and sorting
+* Product detail page
+* Checkout page
+* Payment gateway integration
+* User authentication
+* Backend database integration
+* Order history
+* Dark mode
+
+---
+
+# 📷 Preview
+<img width="1533" height="748" alt="image" src="https://github.com/user-attachments/assets/81d60efc-b077-45a3-9f61-25efbd784ced" />
+<img width="1536" height="705" alt="image" src="https://github.com/user-attachments/assets/e4401a2d-b211-4eda-8fac-e0df2a96f900" />
+<img width="1536" height="745" alt="image" src="https://github.com/user-attachments/assets/12d7703a-5ee1-4f5a-9267-aea3cee714c4" />
+
+
